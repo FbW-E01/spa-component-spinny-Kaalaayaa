@@ -1,6 +1,25 @@
-body, .App {
+body{
     height: 100vh;
     display: grid;
     background: #000;
 }
-iframe { margin: auto; }
+
+i {
+    color: white;
+    margin: auto;
+
+}
+
+.spinner {
+    margin: auto;
+    margin-top: 300px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;}
+
+.data {
+    color: white;
+    text-align: justify;
+    list-style-type: circle;
+    line-height: 50px;
+}
